@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 27696048}
   - component: {fileID: 27696047}
   - component: {fileID: 27696050}
+  - component: {fileID: 27696051}
   m_Layer: 0
   m_Name: Calabaza (5)
   m_TagString: Untagged
@@ -235,6 +236,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &27696051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27696045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccf2fd292a2835b8cf3c31dbe464b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visionRadius: 5
+  speed: 2
 --- !u!1 &55137205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,6 +2472,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836142090}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &889120592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889120593}
+  m_Layer: 0
+  m_Name: Disparador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889120593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889120592}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.21, y: -0.02, z: 0.65}
+  m_LocalScale: {x: 2.3743944, y: 2.3743944, z: 2.3743944}
+  m_Children: []
+  m_Father: {fileID: 1285971898}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934340371
 GameObject:
   m_ObjectHideFlags: 0
@@ -3611,6 +3656,7 @@ Transform:
   m_LocalScale: {x: 0.42116, y: 0.42116, z: 0.42116}
   m_Children:
   - {fileID: 963194228}
+  - {fileID: 889120593}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -3626,7 +3672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 212473eb6de3c7aac8cbebf97d01b5d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1
+  velocidad: 5
   velocidadDeRotacion: 1
   fuerzaDeSalto: 1
 --- !u!1 &1313353631
@@ -4914,6 +4960,7 @@ GameObject:
   - component: {fileID: 1778532339}
   - component: {fileID: 1778532338}
   - component: {fileID: 1778532341}
+  - component: {fileID: 1778532342}
   m_Layer: 0
   m_Name: Calabaza (3)
   m_TagString: Untagged
@@ -5013,6 +5060,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1778532342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778532336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccf2fd292a2835b8cf3c31dbe464b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visionRadius: 0
+  speed: 0
 --- !u!1 &1901054541
 GameObject:
   m_ObjectHideFlags: 0
