@@ -23,11 +23,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-37985
+40325
 Successfully changed project path to: /home/francinesevilla/Documentos/GitHub/John-Adventure
 /home/francinesevilla/Documentos/GitHub/John-Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86,02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 82,76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path /home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -43,578 +43,103 @@ le_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubem
 _ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer
 _multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_n
 o_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -398523024
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -58473136
 Initialize mono
 Mono path[0] = '/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = '/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56727
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,004738 seconds.
+Registered in 0,004450 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90,88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 82,74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3,560 seconds
+- Completed reload, in  3,380 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3560ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (3380ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1131ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
+			SetupTypeCache (421ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (469ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,005451 seconds.
+Registered in 0,004401 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1,08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,736 seconds
+- Completed reload, in  2,649 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2738ms)
-		BeginReloadAssembly (314ms)
+	ReloadAssembly (2650ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (2259ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (2238ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (703ms)
+			SetupTypeCache (853ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (964ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (719ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0,97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93,5 MB.
-System memory in use after: 83,4 MB.
-
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1952.
-Total: 40,400374 ms (FindLiveObjects: 0,360148 ms CreateObjectMapping: 0,130286 ms MarkObjects: 10,839066 ms  DeleteObjects: 29,067134 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/personaje.unity
-  artifactKey: Guid(73ed006a04a92fca8ad8353d4fbba0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personaje.unity using Guid(73ed006a04a92fca8ad8353d4fbba0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630dcf8b426026054cb534ec5fe1f112') in 0,052998 seconds 
-  Import took 0,060028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2,921163 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a1062512cc33ed5698fb18bdf80819') in 0,001978 seconds 
-  Import took 0,007673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18,611667 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/LS Preview SD Unity-chan.prefab
-  artifactKey: Guid(fdf678a7193c58346a367114b3da57ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/LS Preview SD Unity-chan.prefab using Guid(fdf678a7193c58346a367114b3da57ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8524e7614981dc74fba00bf9b3e3a074') in 0,562632 seconds 
-  Import took 0,571585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000284 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan.prefab
-  artifactKey: Guid(9d4dd85afa58a17438e34b09e8d15f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan.prefab using Guid(9d4dd85afa58a17438e34b09e8d15f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a159941c7fd634440b19a0881c058894') in 0,083935 seconds 
-  Import took 0,093925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000263 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_03 SD Unity-Chan.prefab
-  artifactKey: Guid(3ce5f30162abffb4cb663f89f504ae9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_03 SD Unity-Chan.prefab using Guid(3ce5f30162abffb4cb663f89f504ae9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b38dd55826aca3f430e7533221bc688') in 0,072680 seconds 
-  Import took 0,082034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000577 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_03 SD Yuko.prefab
-  artifactKey: Guid(2b530a6fa5657a341950a3628aadffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_03 SD Yuko.prefab using Guid(2b530a6fa5657a341950a3628aadffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f7b60f654814f0448f69fd2b9104fd') in 0,083744 seconds 
-  Import took 0,098024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000822 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WGS.prefab
-  artifactKey: Guid(485d662c63590f74dac20be0cf684019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WGS.prefab using Guid(485d662c63590f74dac20be0cf684019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b46ed8d482f3e5df366b5ad79a8a2d') in 0,096336 seconds 
-  Import took 0,109825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000330 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WTD.prefab
-  artifactKey: Guid(9567168e85118da4a9e668d51492efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan WTD.prefab using Guid(9567168e85118da4a9e668d51492efb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e166da45cff3e96b3ae055834594079d') in 0,095447 seconds 
-  Import took 0,106770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000317 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Misaki.prefab
-  artifactKey: Guid(0da59bd1f7117f84a8b59d383effdaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Misaki.prefab using Guid(0da59bd1f7117f84a8b59d383effdaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ba64415bccc1ce6c530c4f99f30d40') in 0,070545 seconds 
-  Import took 0,078682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000327 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Yuko.prefab
-  artifactKey: Guid(b2dfadfada0fd634ebbfc36909e42c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Yuko.prefab using Guid(b2dfadfada0fd634ebbfc36909e42c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a311f90ba5f122cfc7d2b7b1a6a2c3') in 0,075440 seconds 
-  Import took 0,085450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000309 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_03 SD Misaki.prefab
-  artifactKey: Guid(ca32052da591292429d1375304e1cc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_03 SD Misaki.prefab using Guid(ca32052da591292429d1375304e1cc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3a3438a19c8390c646b13a44a54f87') in 0,086058 seconds 
-  Import took 0,096162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000367 seconds.
-  path: Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_01 SD Unity-Chan.prefab
-  artifactKey: Guid(234a458d2bc9de040834a24c42610268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_01 SD Unity-Chan.prefab using Guid(234a458d2bc9de040834a24c42610268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf879cf1ad6b19f51c5f4eda78c8f508') in 0,086364 seconds 
-  Import took 0,096296 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,005942 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4,110 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4113ms)
-		BeginReloadAssembly (433ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (206ms)
-		EndReloadAssembly (3422ms)
-			LoadAssemblies (298ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1163ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (206ms)
-			SetupLoadedEditorAssemblies (1263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (1019ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91,3 MB.
-System memory in use after: 81,4 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1962.
-Total: 31,754439 ms (FindLiveObjects: 0,327532 ms CreateObjectMapping: 0,113790 ms MarkObjects: 11,746605 ms  DeleteObjects: 19,563264 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,008843 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4,529 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4531ms)
-		BeginReloadAssembly (334ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (141ms)
-		EndReloadAssembly (3918ms)
-			LoadAssemblies (345ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1392ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (239ms)
-			SetupLoadedEditorAssemblies (1373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (114ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (229ms)
-				ProcessInitializeOnLoadAttributes (988ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (37ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3,05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91,1 MB.
-System memory in use after: 81,3 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1964.
-Total: 60,234148 ms (FindLiveObjects: 0,348953 ms CreateObjectMapping: 0,161852 ms MarkObjects: 20,752351 ms  DeleteObjects: 38,958904 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 718,441219 seconds.
-  path: Assets/Prefabs/Set Costume_03 SD Misaki.prefab
-  artifactKey: Guid(b7895636f65e2eb6f9467d0fa9153b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Set Costume_03 SD Misaki.prefab using Guid(b7895636f65e2eb6f9467d0fa9153b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8104577c934d6bf9f6cc3084c8284a11') in 0,304762 seconds 
-  Import took 0,317126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 93,749121 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(c1a165d5780b80aa399b24a35e53c985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(c1a165d5780b80aa399b24a35e53c985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f918e3325256902bd4a136a695d84e2') in 0,004396 seconds 
-  Import took 0,012400 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,011451 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3825ms)
-		BeginReloadAssembly (367ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (166ms)
-		EndReloadAssembly (3214ms)
-			LoadAssemblies (269ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1097ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (178ms)
-			SetupLoadedEditorAssemblies (1197ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (62ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (171ms)
-				ProcessInitializeOnLoadAttributes (917ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (27ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1,13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91,2 MB.
-System memory in use after: 81,4 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1968.
-Total: 86,379470 ms (FindLiveObjects: 0,604421 ms CreateObjectMapping: 0,298224 ms MarkObjects: 43,378280 ms  DeleteObjects: 42,093801 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 47,612483 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(c1a165d5780b80aa399b24a35e53c985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(c1a165d5780b80aa399b24a35e53c985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ff3572f04bfeb1962abfb8896e173b') in 0,012486 seconds 
-  Import took 0,020172 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,007017 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,771 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3772ms)
-		BeginReloadAssembly (343ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (160ms)
-		EndReloadAssembly (3203ms)
-			LoadAssemblies (250ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1065ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (153ms)
-			SetupLoadedEditorAssemblies (1335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (1081ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1,05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91,2 MB.
-System memory in use after: 81,4 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1970.
-Total: 45,668899 ms (FindLiveObjects: 0,487478 ms CreateObjectMapping: 0,150478 ms MarkObjects: 13,588843 ms  DeleteObjects: 31,438106 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 153,085764 seconds.
-  path: Assets/Prefabs/Set Costume_03 SD Misaki.prefab
-  artifactKey: Guid(b7895636f65e2eb6f9467d0fa9153b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Set Costume_03 SD Misaki.prefab using Guid(b7895636f65e2eb6f9467d0fa9153b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b213cf721e70f78715ac98d52d964e8a') in 0,726380 seconds 
-  Import took 0,737761 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,007828 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,910 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3911ms)
-		BeginReloadAssembly (326ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (3324ms)
-			LoadAssemblies (290ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1156ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (213ms)
-			SetupLoadedEditorAssemblies (1247ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (217ms)
-				ProcessInitializeOnLoadAttributes (936ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1,17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91,4 MB.
-System memory in use after: 81,6 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 48,613281 ms (FindLiveObjects: 0,609421 ms CreateObjectMapping: 0,264303 ms MarkObjects: 13,718332 ms  DeleteObjects: 34,016936 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,007822 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,536 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3537ms)
-		BeginReloadAssembly (305ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (145ms)
-		EndReloadAssembly (3007ms)
-			LoadAssemblies (234ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1031ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (154ms)
-			SetupLoadedEditorAssemblies (1150ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (800ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (52ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (891ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (547ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1,05 ms, found 0 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91,4 MB.
-System memory in use after: 81,6 MB.
+Unloading 1582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93,6 MB.
+System memory in use after: 83,8 MB.
 
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1975.
-Total: 58,437748 ms (FindLiveObjects: 0,501042 ms CreateObjectMapping: 0,155474 ms MarkObjects: 19,532561 ms  DeleteObjects: 38,243832 ms)
+Unloading 86 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 49,969842 ms (FindLiveObjects: 0,671529 ms CreateObjectMapping: 0,382027 ms MarkObjects: 13,698228 ms  DeleteObjects: 35,213702 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -626,297 +151,1100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Bush_1_1.prefab
+  artifactKey: Guid(736a3a898da8f894593c271ad73d5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Bush_1_1.prefab using Guid(736a3a898da8f894593c271ad73d5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138555394f5a592d1d76755a2e6cf7b1') in 0,203324 seconds 
+  Import took 0,213222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000436 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation
+  artifactKey: Guid(91d8f4b4077ba1b47aad4b20f0c152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation using Guid(91d8f4b4077ba1b47aad4b20f0c152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f42e149099da53669f15232acad773') in 0,002414 seconds 
+  Import took 0,010117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000299 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Plant_1_1.prefab
+  artifactKey: Guid(18e11e0f358c3684abd2b1363d394d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Plant_1_1.prefab using Guid(18e11e0f358c3684abd2b1363d394d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72315b962c1b770138d42918633a485') in 0,020053 seconds 
+  Import took 0,028713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000293 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/FallenTree_1_2.prefab
+  artifactKey: Guid(7bd8a99d77d246b41b47d6f0958d6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/FallenTree_1_2.prefab using Guid(7bd8a99d77d246b41b47d6f0958d6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34df60fe5c245286b2bdd915ce7f7d50') in 0,028983 seconds 
+  Import took 0,037006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000309 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Grass_2_1.prefab
+  artifactKey: Guid(1ddaf242dd01c744393cf9bd8a9334d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Grass_2_1.prefab using Guid(1ddaf242dd01c744393cf9bd8a9334d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be43034a2a6c379691d7c75481437c1') in 0,018714 seconds 
+  Import took 0,028038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000295 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/FallenTree_1_1.prefab
+  artifactKey: Guid(c33d23e7dff87c94bbbf8303e2318397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/FallenTree_1_1.prefab using Guid(c33d23e7dff87c94bbbf8303e2318397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9f9413ab27e3c6c0ec44f189359796') in 0,018388 seconds 
+  Import took 0,024230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000297 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Bush_1_2.prefab
+  artifactKey: Guid(e8e4c79974d5dd2469bc0c0055921376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Bush_1_2.prefab using Guid(e8e4c79974d5dd2469bc0c0055921376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c1f2126d2733fadae8b44116bbe779') in 0,016000 seconds 
+  Import took 0,022741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000513 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Tree_1_1.prefab
+  artifactKey: Guid(465cbb465c9880c45887d824bd1f720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Tree_1_1.prefab using Guid(465cbb465c9880c45887d824bd1f720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211bee4b379cf307f191d1a563724923') in 0,024123 seconds 
+  Import took 0,036320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000272 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Grass_1_1.prefab
+  artifactKey: Guid(2ab833ef86401f8409c0310ffb61631e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Grass_1_1.prefab using Guid(2ab833ef86401f8409c0310ffb61631e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147e65392a1d04decb0f4c97137b14f3') in 0,021301 seconds 
+  Import took 0,029734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000305 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Grass_1_2.prefab
+  artifactKey: Guid(729e667a67b1fbd40adbda716ae59a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Grass_1_2.prefab using Guid(729e667a67b1fbd40adbda716ae59a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b6e8d33685a740356fce045e45e0d3') in 0,017331 seconds 
+  Import took 0,028384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000323 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs
+  artifactKey: Guid(54c2d62876ea875408d05fb5ca09fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs using Guid(54c2d62876ea875408d05fb5ca09fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4181e2725237d3b5c3450c5a40de0c') in 0,003268 seconds 
+  Import took 0,012262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000347 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Tree_1_2.prefab
+  artifactKey: Guid(d855296cdd38f1d43a9018c918395080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/FreeVegetation/Prefabs/Tree_1_2.prefab using Guid(d855296cdd38f1d43a9018c918395080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e025b859ed833145aaaf1c8ebfc677') in 0,021808 seconds 
+  Import took 0,031862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 689,997813 seconds.
+  path: Assets/Lowpoly Flowers/flower01.fbx
+  artifactKey: Guid(da1981c3ee8ea7e4186a753e15495628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower01.fbx using Guid(da1981c3ee8ea7e4186a753e15495628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd223c25359b18d6926c583ff7990b828') in 0,236333 seconds 
+  Import took 0,241782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000307 seconds.
+  path: Assets/Lowpoly Flowers/flower06.fbx
+  artifactKey: Guid(ab34fd65b601dab41915f4e874408d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower06.fbx using Guid(ab34fd65b601dab41915f4e874408d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cf6edb8c9cccbbc7705001000ec6e4') in 0,433408 seconds 
+  Import took 0,439570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000343 seconds.
+  path: Assets/Lowpoly Flowers/flower02.fbx
+  artifactKey: Guid(41ba2a6f1d128f94eba95e5213a81254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower02.fbx using Guid(41ba2a6f1d128f94eba95e5213a81254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681f7cf7c7ad25729a0ed5a8b3f4a1af') in 0,110911 seconds 
+  Import took 0,116026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000298 seconds.
+  path: Assets/Lowpoly Flowers/flower07.fbx
+  artifactKey: Guid(f74defbe1b9a23449aef9a881263fe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower07.fbx using Guid(f74defbe1b9a23449aef9a881263fe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88250c1a3d01fe1eea97bc3fec13baf') in 0,148190 seconds 
+  Import took 0,153578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000290 seconds.
+  path: Assets/Lowpoly Flowers/flower05.fbx
+  artifactKey: Guid(f1c3f8e347f55f44e98e7ea73efac66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower05.fbx using Guid(f1c3f8e347f55f44e98e7ea73efac66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d936a7cc39e25a4f0f634be9181e4') in 0,111707 seconds 
+  Import took 0,117394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000268 seconds.
+  path: Assets/Lowpoly Flowers/flower03.fbx
+  artifactKey: Guid(b332dc24cbb08144da2f112f82406700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower03.fbx using Guid(b332dc24cbb08144da2f112f82406700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ad53f741e0b103826d2ac817c4c1f4') in 0,109317 seconds 
+  Import took 0,115394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000307 seconds.
+  path: Assets/Lowpoly Flowers/flower04.fbx
+  artifactKey: Guid(821158ae724ce854e920539f935295b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower04.fbx using Guid(821158ae724ce854e920539f935295b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f5df33f75cc33e7643428cbc495a13') in 0,107108 seconds 
+  Import took 0,112305 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,003980 seconds.
+Registered in 0,004315 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,340 seconds
+- Completed reload, in  2,902 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2340ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (2903ms)
+		BeginReloadAssembly (229ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (1973ms)
-			LoadAssemblies (178ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2361ms)
+			LoadAssemblies (305ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (642ms)
+			SetupTypeCache (940ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (788ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (705ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (35ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (612ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90,8 MB.
+System memory in use after: 81,0 MB.
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 30,231736 ms (FindLiveObjects: 0,321605 ms CreateObjectMapping: 0,122205 ms MarkObjects: 9,562643 ms  DeleteObjects: 20,221998 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152,633201 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(1a1d8fbda6c51584785d741ff6c4983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer using Guid(1a1d8fbda6c51584785d741ff6c4983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab6e2b059b73deac809ae2b47ec0927') in 0,076942 seconds 
+  Import took 0,082724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102,690800 seconds.
+  path: Assets/Toon Forest free set/Prehub
+  artifactKey: Guid(d7dd6a24668dcfe408937ce6739a9e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub using Guid(d7dd6a24668dcfe408937ce6739a9e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5c313adeb7bbf7557c1fa2ca494aa') in 0,001553 seconds 
+  Import took 0,006701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,110367 seconds.
+  path: Assets/Toon Forest free set/Prehub/Fllower_A_01.prefab
+  artifactKey: Guid(bb1a6ef5a890dd8489e9d9bed4c86c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Fllower_A_01.prefab using Guid(bb1a6ef5a890dd8489e9d9bed4c86c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '640b6fcaa646a35a18458f4471dd9cc3') in 0,125900 seconds 
+  Import took 0,133493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000305 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_05a.prefab
+  artifactKey: Guid(6b308a2cf4784674b84bff2819583aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_05a.prefab using Guid(6b308a2cf4784674b84bff2819583aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e503ad11df9b578c3f2bf3a31fea70ac') in 0,506365 seconds 
+  Import took 0,512639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000358 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_03a.prefab
+  artifactKey: Guid(426f8534717042443b6681b61de0372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_03a.prefab using Guid(426f8534717042443b6681b61de0372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b625365dd3c35a8ed29ff49a5cde836') in 0,031417 seconds 
+  Import took 0,044685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000535 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_00a.prefab
+  artifactKey: Guid(63207178c574d6f43a7ead2691e469bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_00a.prefab using Guid(63207178c574d6f43a7ead2691e469bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df97cbc89bcd7bf933b277a8d005bf') in 0,086239 seconds 
+  Import took 0,096624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000368 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_02a.prefab
+  artifactKey: Guid(7df412b000e517f45bf54a61af8eaab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_02a.prefab using Guid(7df412b000e517f45bf54a61af8eaab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4e4763851962d8f7f881c6567abf51') in 0,026379 seconds 
+  Import took 0,032974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000423 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_04a.prefab
+  artifactKey: Guid(99b3dc62b0e0dc94a8d193242ede6afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_04a.prefab using Guid(99b3dc62b0e0dc94a8d193242ede6afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c265278560533c3ee14d09ae97c5660') in 0,041691 seconds 
+  Import took 0,051946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000319 seconds.
+  path: Assets/Toon Forest free set/Prehub/Fllower_A_08.prefab
+  artifactKey: Guid(17c6ca175b4aadc458a04dd37daa772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Fllower_A_08.prefab using Guid(17c6ca175b4aadc458a04dd37daa772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: 'c71f58e71d341cf372b2364beca2f517') in 0,024335 seconds 
+  Import took 0,032725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000320 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_06a.prefab
+  artifactKey: Guid(527ddb38aa3c583479ae8906bc115e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_06a.prefab using Guid(527ddb38aa3c583479ae8906bc115e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddbc7895708941cb7c73245fd6164c4') in 0,045987 seconds 
+  Import took 0,060229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000353 seconds.
+  path: Assets/Toon Forest free set/Prehub/Stump.prefab
+  artifactKey: Guid(31030c34f220e9e4dbbee59a0041081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Stump.prefab using Guid(31030c34f220e9e4dbbee59a0041081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '5c199d77f356f9fb93ae186671592c0c') in 0,037917 seconds 
+  Import took 0,050765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000541 seconds.
+  path: Assets/Toon Forest free set/Prehub/Fllower_B_01.prefab
+  artifactKey: Guid(b05c25d12ca0fe24e9b0c4dc55d4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Fllower_B_01.prefab using Guid(b05c25d12ca0fe24e9b0c4dc55d4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: 'a1d64bc72bcde7e22ef61b82b26d3809') in 0,031069 seconds 
+  Import took 0,042273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000618 seconds.
+  path: Assets/Toon Forest free set/Prehub/Mushroom_A_02.prefab
+  artifactKey: Guid(9b41b70113f76be4bab676c17ba24a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Mushroom_A_02.prefab using Guid(9b41b70113f76be4bab676c17ba24a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '42e2f81f93f954766414851a025b4cba') in 0,024762 seconds 
+  Import took 0,033613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000341 seconds.
+  path: Assets/Toon Forest free set/Prehub/Mushroom_A_01.prefab
+  artifactKey: Guid(07af7219957029f44be2b1df06ec65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Mushroom_A_01.prefab using Guid(07af7219957029f44be2b1df06ec65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '9e104a29f85b82f270d3ce40293da83c') in 0,050717 seconds 
+  Import took 0,061943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000330 seconds.
+  path: Assets/Toon Forest free set/Prehub/Mushroom_B_00.prefab
+  artifactKey: Guid(6b1f1e55f7a6d3441b6121b7d3416479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Mushroom_B_00.prefab using Guid(6b1f1e55f7a6d3441b6121b7d3416479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '1dcea2063f4787ea59c90ab60bdd7bf0') in 0,019324 seconds 
+  Import took 0,028049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001914 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_07a.prefab
+  artifactKey: Guid(21d5c9803f7200f4c960566bd27379bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_07a.prefab using Guid(21d5c9803f7200f4c960566bd27379bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c83955aabed1541f284ab462b9fb489') in 0,049089 seconds 
+  Import took 0,056338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000332 seconds.
+  path: Assets/Toon Forest free set/Prehub/Plant_01a.prefab
+  artifactKey: Guid(ffb0330b28dfc07479b3c043390e584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Plant_01a.prefab using Guid(ffb0330b28dfc07479b3c043390e584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f4944ca8099e9c3bbdc05a8a13c84b') in 0,025503 seconds 
+  Import took 0,039894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000416 seconds.
+  path: Assets/Toon Forest free set/Prehub/Fllower_B_00.prefab
+  artifactKey: Guid(bcd5ab9be4816d4418a27554cbca6474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Fllower_B_00.prefab using Guid(bcd5ab9be4816d4418a27554cbca6474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '0a132352c0a8008bca5e82200fab8e56') in 0,026268 seconds 
+  Import took 0,037041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000334 seconds.
+  path: Assets/Toon Forest free set/Prehub/Mushroom_B_01.prefab
+  artifactKey: Guid(64d5316cc2ec52e4dac47f07ef7791c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Mushroom_B_01.prefab using Guid(64d5316cc2ec52e4dac47f07ef7791c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '4ea02d2648bb574b7f92382e2762dde3') in 0,022676 seconds 
+  Import took 0,028995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000319 seconds.
+  path: Assets/Toon Forest free set/Prehub/Mushroom_A_00.prefab
+  artifactKey: Guid(16f93aebbe56f604cbd07ddf19840c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Mushroom_A_00.prefab using Guid(16f93aebbe56f604cbd07ddf19840c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: 'df62f5b5924d506548c2b441cbcdf6ab') in 0,042939 seconds 
+  Import took 0,052135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000346 seconds.
+  path: Assets/Toon Forest free set/Prehub/Mushroom_B_02.prefab
+  artifactKey: Guid(82aff9a2be76668498b842e0d6abe371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Prehub/Mushroom_B_02.prefab using Guid(82aff9a2be76668498b842e0d6abe371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '0f75160c3c404e3df89d648c123cc1a5') in 0,024374 seconds 
+  Import took 0,032305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,462921 seconds.
+  path: Assets/Toon Forest free set/scene
+  artifactKey: Guid(6bd16c669c0c55045baa109c860d848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/scene using Guid(6bd16c669c0c55045baa109c860d848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab9fa04495675f71dcebe24458db126') in 0,001315 seconds 
+  Import took 0,006934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,554444 seconds.
+  path: Assets/Toon Forest free set/sqript
+  artifactKey: Guid(cbe79d89e1b3c964fa60edd3f04f2588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/sqript using Guid(cbe79d89e1b3c964fa60edd3f04f2588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f363f0f01c1a969012d3d2139534e31d') in 0,001951 seconds 
+  Import took 0,009135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,522245 seconds.
+  path: Assets/Toon Forest free set/texture
+  artifactKey: Guid(55dab26b886e01046a8b7518452a8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture using Guid(55dab26b886e01046a8b7518452a8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e138f9b2e13126fc827cb9e5b33e6667') in 0,001944 seconds 
+  Import took 0,009155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,113027 seconds.
+  path: Assets/Toon Forest free set/texture/fllowerA2.png
+  artifactKey: Guid(aaf0cd23ed5a7f0449cdc5f003fcd45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture/fllowerA2.png using Guid(aaf0cd23ed5a7f0449cdc5f003fcd45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244ba4f6fffe30507c21029cc805c9e') in 0,021149 seconds 
+  Import took 0,028603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000306 seconds.
+  path: Assets/Toon Forest free set/texture/fllowerB2.png
+  artifactKey: Guid(ffa7898652a248f4fbeaebef7f1f378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture/fllowerB2.png using Guid(ffa7898652a248f4fbeaebef7f1f378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04afcded0941940ce2efaa8f8779f0e7') in 0,014190 seconds 
+  Import took 0,024015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000685 seconds.
+  path: Assets/Toon Forest free set/texture/plant_a.png
+  artifactKey: Guid(4ccf32c45f5129f4187a53d01c95c654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture/plant_a.png using Guid(4ccf32c45f5129f4187a53d01c95c654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e1d7af4951c8ce08564928081dc4bc') in 0,039808 seconds 
+  Import took 0,050551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000355 seconds.
+  path: Assets/Toon Forest free set/texture/fllowerA3_w.png
+  artifactKey: Guid(f92fc8b5ae546fb4891c630a468d9ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture/fllowerA3_w.png using Guid(f92fc8b5ae546fb4891c630a468d9ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c8505b08d328e37c246422918f0620') in 0,017632 seconds 
+  Import took 0,026259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000801 seconds.
+  path: Assets/Toon Forest free set/texture/stump_mathroom.png
+  artifactKey: Guid(fe7d7f9ff7c69434a866d849d5a0091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture/stump_mathroom.png using Guid(fe7d7f9ff7c69434a866d849d5a0091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c611a125a35dc716ac58b8e82d39d5') in 0,012356 seconds 
+  Import took 0,018430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000310 seconds.
+  path: Assets/Toon Forest free set/texture/fllowerB1.png
+  artifactKey: Guid(377f4e5e671cab243937c9ef0f150ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/texture/fllowerB1.png using Guid(377f4e5e671cab243937c9ef0f150ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe513b950f8ef09403ef3cabad95fc') in 0,012022 seconds 
+  Import took 0,018779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,450065 seconds.
+  path: Assets/Toon Forest free set/Mesh
+  artifactKey: Guid(bf365495b9510e842bc9be25b4574cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh using Guid(bf365495b9510e842bc9be25b4574cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e20709db34731a1b2b223cd2fb8686c') in 0,001296 seconds 
+  Import took 0,006916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,118468 seconds.
+  path: Assets/Toon Forest free set/Mesh/Fllower_A.fbx
+  artifactKey: Guid(32d182b37e3e13a479d6a74dcdd5fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Fllower_A.fbx using Guid(32d182b37e3e13a479d6a74dcdd5fa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b46e9a71bd8160adddd1ba1b0893210') in 0,062898 seconds 
+  Import took 0,071299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000287 seconds.
+  path: Assets/Toon Forest free set/Mesh/Mushroom_A_00.fbx
+  artifactKey: Guid(f1529d33976cc8c44a938df51ebb9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Mushroom_A_00.fbx using Guid(f1529d33976cc8c44a938df51ebb9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: 'bad6789966ad67f4b6957fd4bc8c4051') in 0,032081 seconds 
+  Import took 0,039005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000306 seconds.
+  path: Assets/Toon Forest free set/Mesh/Mushroom_B_00.fbx
+  artifactKey: Guid(ebbe4f72fc4e5ce4fa52685820336d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Mushroom_B_00.fbx using Guid(ebbe4f72fc4e5ce4fa52685820336d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '9b834fc53c6d536ed3a9f6b9121e1848') in 0,066093 seconds 
+  Import took 0,075352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000280 seconds.
+  path: Assets/Toon Forest free set/Mesh/Mushroom_A_02.fbx
+  artifactKey: Guid(71bb81c3b0c91e949962853685ebe164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Mushroom_A_02.fbx using Guid(71bb81c3b0c91e949962853685ebe164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '9eaf32f116e018a1ec783f40e66f7b08') in 0,035353 seconds 
+  Import took 0,044653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000492 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_06a.fbx
+  artifactKey: Guid(b9a174045453e374c95d593664055ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_06a.fbx using Guid(b9a174045453e374c95d593664055ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a7366e376f8e6100ade8c6a987d5c2') in 0,056271 seconds 
+  Import took 0,068238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000993 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_03a.fbx
+  artifactKey: Guid(7b04ee3ebdd67e34babf26f54b89587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_03a.fbx using Guid(7b04ee3ebdd67e34babf26f54b89587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7765f6a4c80f32359d4308e02cb944a6') in 0,060364 seconds 
+  Import took 0,070860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000324 seconds.
+  path: Assets/Toon Forest free set/Mesh/Fllower_B.fbx
+  artifactKey: Guid(0a9970fbec424464893f90360d9303ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Fllower_B.fbx using Guid(0a9970fbec424464893f90360d9303ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aff0fc25719f529a748b8c3e190d84a') in 0,027129 seconds 
+  Import took 0,034623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000612 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_05a.fbx
+  artifactKey: Guid(f1118febaa0391e4187e80a553fb9b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_05a.fbx using Guid(f1118febaa0391e4187e80a553fb9b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab665c2b0e65438bc2055bd17772039') in 0,044939 seconds 
+  Import took 0,056952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000269 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_04a.fbx
+  artifactKey: Guid(1598bc50b5048ba4c823626e2d063e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_04a.fbx using Guid(1598bc50b5048ba4c823626e2d063e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc1b0d583d9bf40179caf2c6b65061d') in 0,059650 seconds 
+  Import took 0,069458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000353 seconds.
+  path: Assets/Toon Forest free set/Mesh/Mushroom_B_01.fbx
+  artifactKey: Guid(66f0b7bdfd956124ead790254b68bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Mushroom_B_01.fbx using Guid(66f0b7bdfd956124ead790254b68bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '8ea11ee3b6cd32cf24f7b5e71d7a667f') in 0,037214 seconds 
+  Import took 0,048584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000998 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_07a.fbx
+  artifactKey: Guid(49cbc3096995b364c9d42989e52c16aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_07a.fbx using Guid(49cbc3096995b364c9d42989e52c16aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c938e58702194845a181b32b3c63f8') in 0,047608 seconds 
+  Import took 0,061849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000318 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_00a.fbx
+  artifactKey: Guid(0a0e34400d746424596313417bfbd364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_00a.fbx using Guid(0a0e34400d746424596313417bfbd364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a983733cc8202c450a18d2344042bcad') in 0,057452 seconds 
+  Import took 0,065554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000306 seconds.
+  path: Assets/Toon Forest free set/Mesh/Stump.fbx
+  artifactKey: Guid(e7e16e596a827514eba2667e01296d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Stump.fbx using Guid(e7e16e596a827514eba2667e01296d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '6046a60b561af88a4a882eb02318c262') in 0,033888 seconds 
+  Import took 0,042653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000618 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_02a.fbx
+  artifactKey: Guid(f6e62a604c497ad40a9bccabed263d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_02a.fbx using Guid(f6e62a604c497ad40a9bccabed263d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8853b6352e35c6cb12515a678ee834') in 0,055983 seconds 
+  Import took 0,067603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000278 seconds.
+  path: Assets/Toon Forest free set/Mesh/Plant_01a.fbx
+  artifactKey: Guid(f2aac8f12bea6bf4e811b49e5415b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Plant_01a.fbx using Guid(f2aac8f12bea6bf4e811b49e5415b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e57066155298e5d76c2a8dab536963e') in 0,061214 seconds 
+  Import took 0,068482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000448 seconds.
+  path: Assets/Toon Forest free set/Mesh/Mushroom_A_01.fbx
+  artifactKey: Guid(90804d646006aa640905a83bb8ae95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Mushroom_A_01.fbx using Guid(90804d646006aa640905a83bb8ae95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: '1a50883c50c66cc4483d1956b0eea962') in 0,029037 seconds 
+  Import took 0,037062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000326 seconds.
+  path: Assets/Toon Forest free set/Mesh/Mushroom_B_02.fbx
+  artifactKey: Guid(d41ec4c9f83c0fd41919efea746bbef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Mushroom_B_02.fbx using Guid(d41ec4c9f83c0fd41919efea746bbef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/SubShader.cpp line 312]
+
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview () (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:831)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:844)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
+
+[./Runtime/Shaders/ShaderImpl/ShaderImpl.cpp line 274]
+
+ -> (artifact id: 'd07abb63dce2563aa2e5aa8fc6570ade') in 0,048616 seconds 
+  Import took 0,060328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,840502 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials
+  artifactKey: Guid(70388dc0bf48d62458e9069fa197df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials using Guid(70388dc0bf48d62458e9069fa197df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80ffb25918aa8e633b62e995d1151d9') in 0,001479 seconds 
+  Import took 0,006804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,137034 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/fllower1.mat
+  artifactKey: Guid(12d56d4101908f809a5d4f1b7077c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/fllower1.mat using Guid(12d56d4101908f809a5d4f1b7077c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d0cd736002c68da56aa9ba7d876555') in 0,041004 seconds 
+  Import took 0,047101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000269 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/fllowerB00.mat
+  artifactKey: Guid(31e1c224b8551bf498d61487db05a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/fllowerB00.mat using Guid(31e1c224b8551bf498d61487db05a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+ -> (artifact id: 'bcc9757a33394cc1fe5ba29f4df7d04e') in 0,020733 seconds 
+  Import took 0,028640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000360 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/fllowerB2.mat
+  artifactKey: Guid(91f6d60923ae9eeb98a4ddce718e9a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/fllowerB2.mat using Guid(91f6d60923ae9eeb98a4ddce718e9a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cc13530a82e1bfc5b4db6668cba630') in 0,035762 seconds 
+  Import took 0,045259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000327 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/plant_a.mat
+  artifactKey: Guid(92730c49ad94b65489aeb5ed2e7c5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/plant_a.mat using Guid(92730c49ad94b65489aeb5ed2e7c5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856c705414688c4fa34b08661fc4dad1') in 0,023133 seconds 
+  Import took 0,032288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000289 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/fllowerA01.mat
+  artifactKey: Guid(87faec1e9166317439ddcb1ed4380137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/fllowerA01.mat using Guid(87faec1e9166317439ddcb1ed4380137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+ -> (artifact id: '5e3e4a12f3444998c239996ae7a67bd4') in 0,023184 seconds 
+  Import took 0,039350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001047 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/fllowerB01.mat
+  artifactKey: Guid(e21f8e088100c524c9a7915279fa6642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/fllowerB01.mat using Guid(e21f8e088100c524c9a7915279fa6642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+ -> (artifact id: '18e1c4eaf2a28af0a89f20bbc5cc98a7') in 0,023126 seconds 
+  Import took 0,031343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000289 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/stump_mathroom.mat
+  artifactKey: Guid(89367594206e69e498093ddfbf7750dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/stump_mathroom.mat using Guid(89367594206e69e498093ddfbf7750dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+ -> (artifact id: '7027291c5ad86923abc00562c5a2b9f1') in 0,024725 seconds 
+  Import took 0,034073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000297 seconds.
+  path: Assets/Toon Forest free set/Mesh/Materials/fllowerA02_w.mat
+  artifactKey: Guid(db4c20d78567d45449faefb707093dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/Mesh/Materials/fllowerA02_w.mat using Guid(db4c20d78567d45449faefb707093dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+ -> (artifact id: 'c4d86e05200204b295a534c0af4cfbe4') in 0,045705 seconds 
+  Import took 0,055443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,132097 seconds.
+  path: Assets/Toon Forest free set/scene/sample.unity
+  artifactKey: Guid(8b9bb8ee2b09a964cb1ee46f55c7b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Forest free set/scene/sample.unity using Guid(8b9bb8ee2b09a964cb1ee46f55c7b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c376a27f5cd54e2d8e747534f685a26f') in 0,002723 seconds 
+  Import took 0,010114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22,907577 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48db63f41b33716d0329b13a113d8b3e') in 0,002581 seconds 
+  Import took 0,009927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 519,302558 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/Demo
+  artifactKey: Guid(4e6ad89b99a96eb49ac086e4ede06ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/Demo using Guid(4e6ad89b99a96eb49ac086e4ede06ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e4aaf7c722adaa584ab61b03f4f6ba') in 0,001955 seconds 
+  Import took 0,009436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,328366 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/Effects
+  artifactKey: Guid(7adbf7368caf95e42bbb77b08a2414fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/Effects using Guid(7adbf7368caf95e42bbb77b08a2414fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e94f65da9ffb248aae3752153a725cf') in 0,001364 seconds 
+  Import took 0,006749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,712525 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/Effects/NaturePostProcessSetup.asset
+  artifactKey: Guid(0ba42f0245cfea1468c5dd9c60521d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/Effects/NaturePostProcessSetup.asset using Guid(0ba42f0245cfea1468c5dd9c60521d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749a28229467c28c01b1bfc83dda92de') in 0,003475 seconds 
+  Import took 0,011057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000321 seconds.
+  path: Assets/FreeVegetation-LowPolyNature/Effects/Skybox.mat
+  artifactKey: Guid(7c0955a843cac66449fb7754cda3fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeVegetation-LowPolyNature/Effects/Skybox.mat using Guid(7c0955a843cac66449fb7754cda3fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73099c645592b4cc6fcb0d020734be3a') in 0,329210 seconds 
+  Import took 0,334985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,005953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,545 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3547ms)
+		BeginReloadAssembly (328ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (154ms)
+		EndReloadAssembly (2989ms)
+			LoadAssemblies (306ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1154ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (615ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73,7 MB.
-System memory in use after: 73,8 MB.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91,2 MB.
+System memory in use after: 81,4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1977.
-Total: 10,241180 ms (FindLiveObjects: 0,335778 ms CreateObjectMapping: 0,171368 ms MarkObjects: 9,667292 ms  DeleteObjects: 0,064439 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 535,088284 seconds.
-  path: Assets/Plugins/Wolf3D
-  artifactKey: Guid(3a0ef4c40b44c08449bd1881374239af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D using Guid(3a0ef4c40b44c08449bd1881374239af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2adbf0d4d7b6a61c18bcce4dc1fd53d') in 0,008585 seconds 
-  Import took 0,016552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,945516 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack
-  artifactKey: Guid(8264281a0f6523f458bcbba58d1cfabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack using Guid(8264281a0f6523f458bcbba58d1cfabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912804de39b59f61eea14dcf553d26b6') in 0,002072 seconds 
-  Import took 0,009143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2,541135 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs
-  artifactKey: Guid(ee7bc0e942d2fe744b4d60baadad6232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs using Guid(ee7bc0e942d2fe744b4d60baadad6232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fdd3989b55d10ca6e33a87ac44afec') in 0,001948 seconds 
-  Import took 0,009484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2,239081 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male
-  artifactKey: Guid(f12140c41102c4e43ab9a94f32399465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male using Guid(f12140c41102c4e43ab9a94f32399465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad235eaae3a5f4781602352e3f7190ff') in 0,002073 seconds 
-  Import took 0,008847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,106126 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_01_V01.prefab
-  artifactKey: Guid(beb9e839b531a744c877a785deeaa302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_01_V01.prefab using Guid(beb9e839b531a744c877a785deeaa302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f187e0a366bb85ea591bee07dc78afa5') in 0,932543 seconds 
-  Import took 0,939140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000359 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_05_V02.prefab
-  artifactKey: Guid(d22a4e793689c1c42863bc82ea7c61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_05_V02.prefab using Guid(d22a4e793689c1c42863bc82ea7c61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd471965c3545a9879f95e69a8ac60fba') in 0,063948 seconds 
-  Import took 0,073490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000748 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_04_V01.prefab
-  artifactKey: Guid(cfdeca144f90cd94cafba1202ea90251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_04_V01.prefab using Guid(cfdeca144f90cd94cafba1202ea90251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e174eef587a17b0d45471dae3fc6ad18') in 0,070734 seconds 
-  Import took 0,081072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000301 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_03_V02.prefab
-  artifactKey: Guid(5e6b9bea6907a28428f58dc4c7921e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_03_V02.prefab using Guid(5e6b9bea6907a28428f58dc4c7921e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3e8a9af7829bd8f814cd515d55b39c') in 0,081373 seconds 
-  Import took 0,091398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,001034 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_02_V01.prefab
-  artifactKey: Guid(1ce6bdc03e86f854a86e058e1a9ee456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_02_V01.prefab using Guid(1ce6bdc03e86f854a86e058e1a9ee456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501f13aad5c26e8084065fd95da452e0') in 0,090891 seconds 
-  Import took 0,100280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000272 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_02_V02.prefab
-  artifactKey: Guid(9342e78f4850070488bb798f3bbf8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_02_V02.prefab using Guid(9342e78f4850070488bb798f3bbf8840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3610282eb833b4f34f30d8f33ac6ec1b') in 0,077853 seconds 
-  Import took 0,085553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000333 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_03_V01.prefab
-  artifactKey: Guid(114b26d9de9ea7343998657fa56d509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_03_V01.prefab using Guid(114b26d9de9ea7343998657fa56d509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c506c5f3a68f3344d017b3786477de') in 0,084170 seconds 
-  Import took 0,092783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000320 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_01_V02.prefab
-  artifactKey: Guid(2c3c7b33f3eea7b41811d1ba0f85d750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_01_V02.prefab using Guid(2c3c7b33f3eea7b41811d1ba0f85d750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d308348a04b14b2d1bc1653ba9ad66') in 0,079113 seconds 
-  Import took 0,089791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000314 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_04_V02.prefab
-  artifactKey: Guid(4746c779d712f6c489ec95435d4640b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_04_V02.prefab using Guid(4746c779d712f6c489ec95435d4640b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351dda1934ad8a15cbad7e43b29595a4') in 0,060443 seconds 
-  Import took 0,067504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000292 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_05_V01.prefab
-  artifactKey: Guid(d51217ff7da8a0542bbc82ad2e751041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_05_V01.prefab using Guid(d51217ff7da8a0542bbc82ad2e751041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d903264f3e0d0dde93b46bf2d16e30a') in 0,068381 seconds 
-  Import took 0,075249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000328 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_06_V02.prefab
-  artifactKey: Guid(2a711c012aef2f4418b90b07195f0504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_06_V02.prefab using Guid(2a711c012aef2f4418b90b07195f0504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644c1a2769a747d772a4463eaed06762') in 0,071184 seconds 
-  Import took 0,078049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000330 seconds.
-  path: Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_06_V01.prefab
-  artifactKey: Guid(1303fd13f88225042865a0a372afe3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Wolf3D/RPM Avatar Pack/Prefabs/Male/Male_06_V01.prefab using Guid(1303fd13f88225042865a0a372afe3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3621cdd055f595426be143499eeb428') in 0,067725 seconds 
-  Import took 0,078764 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,009135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2,64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,839 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3840ms)
-		BeginReloadAssembly (367ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (189ms)
-		EndReloadAssembly (3227ms)
-			LoadAssemblies (268ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1053ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (178ms)
-			SetupLoadedEditorAssemblies (1252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (200ms)
-				ProcessInitializeOnLoadAttributes (940ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1,65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74,1 MB.
-System memory in use after: 74,2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1980.
-Total: 20,513166 ms (FindLiveObjects: 1,764534 ms CreateObjectMapping: 0,860907 ms MarkObjects: 17,753291 ms  DeleteObjects: 0,125840 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,005861 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3054ms)
-		BeginReloadAssembly (285ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (142ms)
-		EndReloadAssembly (2555ms)
-			LoadAssemblies (253ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (913ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (927ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (711ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74,1 MB.
-System memory in use after: 74,2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1982.
-Total: 10,052592 ms (FindLiveObjects: 0,339550 ms CreateObjectMapping: 0,173762 ms MarkObjects: 9,474254 ms  DeleteObjects: 0,062532 ms)
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 29,810496 ms (FindLiveObjects: 0,370020 ms CreateObjectMapping: 0,114833 ms MarkObjects: 9,473326 ms  DeleteObjects: 19,849901 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
