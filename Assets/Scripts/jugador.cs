@@ -31,7 +31,7 @@ public class jugador : MonoBehaviour
     void Update()
     {
         // Disparar
-        if(Input.GetKeyDown(KeyCode.Return))
+        if(Input.GetKeyDown(KeyCode.Z))
         {
             Disparar();
         }

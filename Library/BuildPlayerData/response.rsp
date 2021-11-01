@@ -7,6 +7,7 @@
 -a="/home/francinesevilla/Documentos/GitHub/John-Adventure/Library/ScriptAssemblies/UnityEngine.UI.dll"
 -a="/home/francinesevilla/Documentos/GitHub/John-Adventure/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -s="/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed/UnityEngine"
+-s="/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed"
 -s="/home/francinesevilla/Documentos/GitHub/John-Adventure/Library/ScriptAssemblies"
 -s="/home/francinesevilla/Documentos/GitHub/John-Adventure/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom"
 -s="/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed/UnityEngine"
