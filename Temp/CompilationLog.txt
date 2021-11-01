@@ -1,0 +1,40 @@
+# Starting compiling UnityEngine.UI.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5e4eb05df9e56062695a6980610a4c53
+# Starting compiling UnityEngine.TestRunner.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-786426fb255048ba1adb186173b65560
+# Starting compiling UnityEditor.TestRunner.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4034eaba6bd6b8023b2befb386a6f569
+# Starting compiling UnityEditor.UI.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4cda03f494f9da4358ada0af603eb679
+# Starting compiling Unity.VSCode.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2a22ffd5389a0f50a818689af243d316
+# Starting compiling Unity.Timeline.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-890e375c405ff4546b4aa58dedf6e405
+# Starting compiling Unity.VisualStudio.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f62336a02f10eb0378c6ccd3fb4cfde1
+# Starting compiling com.unity.animations.springbone.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-14d7c3d058c5d4dcfbfbdb39bcb67a37
+# Starting compiling Unity.CollabProxy.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b86cf9d99c8019a33ac0ba44e8eca1c0
+# Starting compiling Unity.PlasticSCM.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-81af2df6b6067bddaa3a761c63b63db1
+# Starting compiling Unity.Timeline.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e605923e850cbf58ebd59797cf30379f
+# Starting compiling com.unity.animations.springbone.editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c9690705ac562db03a951f8b221ccf9d
+# Starting compiling Unity.Rider.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7f86ced05b0a88596abc287a56bf8489
+# Starting compiling Unity.TextMeshPro.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b439d86f72800d620ae28b7912c74f84
+# Starting compiling Unity.SysrootPackage.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fb9a972d7e21e4470a9f3d22f2c9d29c
+# Starting compiling Unity.Sysroot.Linux_x86_64.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4e0e606d9e90bd2dba0fc7f6f45d51ac
+# Starting compiling Unity.TextMeshPro.Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-92d05fb2ffddb61219e8c19a0d987cdc
+# Starting compiling Unity.Toolchain.Linux-x86_64.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-40948de4501e32136bd820c7f620a7d8
+# Starting compiling Assembly-CSharp.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-daae6610d48036f2aab50674350445a1
+# Starting compiling Assembly-CSharp-Editor.dll
+/home/francinesevilla/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-632f15c2196b74b18930fbe54068156e
